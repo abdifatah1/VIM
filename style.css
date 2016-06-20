@@ -22,3 +22,11 @@ li {
 font-size:25px;
 margin-left: 50px;
 }
+table {
+  border-collapse: collapse;
+  margin-left: 50px;
+}
+td {
+  font-size: 25px;
+  border:1px solid;
+}
