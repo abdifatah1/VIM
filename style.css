@@ -1,3 +1,6 @@
+body {
+  background-color: #D8D8D8;
+}
 h1 {
 text-align: center;
 font-size: 25px;
@@ -13,18 +16,19 @@ font-weight:bold;
   background-color: grey;
 }
 h4{
-margin-left: 50px;
+
+margin-left: 150px;
 text-decoration: underline;
 font-size: 25px;
 }
 
 li {
 font-size:25px;
-margin-left: 50px;
+margin-left: 150px;
 }
 table {
   border-collapse: collapse;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 td {
   font-size: 25px;
