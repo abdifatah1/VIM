@@ -37,6 +37,7 @@ body {
 
 
 h1 {
+  height: 30px;
 text-align: center;
 font-size: 25px;
 font-weight:bold;
