@@ -1,57 +1,52 @@
-@media 
+/*@media
 only screen and (max-width: 999px),
 (min-device-width: 768px) and (max-device-width: 999px){
 #container,.h1,table,tr,td{
 display: block;
 }
-}
-
+*/
+/*}
 @media screen and (max-width: 999px){
 #container {
   width: 100%;
   margin: 0px auto;
 }
 .h1{
-width: 100%;
+width: 80%;
 margin:  0px auto;
+font-family: monospace;
 
 }
 table {
-  width: 100%;
+  width: 80%;
    overflow-x:auto;
   margin:  0px auto;
 }
 
 
-
-
 }
-
+*/
 body {
   background-color: #D8D8D8;
 }
 #container{
-  width: 1000px;
+
   margin: 0px auto;
 }
 
-.h1 {
-  width: 1000px;
-  height:50px;
-  text-align: center;
-  border:2px solid;
-  margin-left:150px;
-  background-color: grey;
-}
+
+
 h1 {
 text-align: center;
 font-size: 25px;
 font-weight:bold;
-
+margin-left:100px 0 100px 0;
+background-color: grey;
+border:2px solid;
 }
 h4{
 
-margin-left: 150px;
+margin-left: 100px;
 text-decoration: underline;
 font-size: 25px;
 }
@@ -59,7 +54,7 @@ font-size: 25px;
 
 table {
   border-collapse: collapse;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 td {
   font-size: 25px;
