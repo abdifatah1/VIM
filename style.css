@@ -26,18 +26,27 @@ table {
 
 }
 */
+
 body {
   background-color: #D8D8D8;
 }
-#container{
+.base{
 
-  margin: 0px auto;
+  clear: both;
+}
+.edition {
+  position: absolute;
+  top:120px;
+  right:100px;
+}
+.recherche{
+
 }
 
 
 
 h1 {
-  height: 30px;
+height: 30px;
 text-align: center;
 font-size: 25px;
 font-weight:bold;
@@ -58,7 +67,7 @@ table {
   margin-left: 100px;
 }
 td {
-  font-size: 25px;
+  font-size: 20px;
   border:1px solid;
 }
 tr {text-align: center;
