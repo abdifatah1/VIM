@@ -8,98 +8,160 @@
 
 </head>
 <body>
-
-
-
 <h1 border width="80%">CHEET SHEET VIM</h1>
-
 <br>
 <br>
 <br>
-
-
 <!--Debut tableau-->
 <table class="base" border width="35%" >
   <caption><h4>Les commandes de base</h4></caption>
  <tr>
       <td>i</td>
       <td>Passer dans le mode insertion</td>
- </tr>
- <tr>
+  </tr>
+  <tr>
       <td>A</td>
       <td>Ajouter en fin de ligne </td>
-</tr>
-<tr>
+  </tr>
+  <tr>
       <td>A</td>
       <td> Ajouter en fin de ligne</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
       <td>:q</td>
       <td>Quiter sans enregistrer</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
       <td>:w</td>
       <td>Enregistrer le fichier</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
       <td>:qw</td>
       <td>Enregistrer et quiter</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
       <td>:x</td>
       <td>Enregistrer (seulement en cas de modification) et quitter</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
       <td>:set paste</td>
       <td>Passer en mode "collage</td>
-</tr>
+  </tr>
 
 </table>
 <!--fin tableau-->
-<!--Debut tableau 2-->
+<!--Debut tableau edition-->
 
 <table class="edition" border width="35%">
   <caption><h4>Commandes d'édition:</h4></caption>
    <tr>
-       <td>U</td>
-       <td>Annuler la dernière opération</td>
+       <td>r</td>
+       <td>remplacer un caractère</td>
    </tr>
    <tr>
-       <td><control>-r</td>
-       <td>Rétablir la dernière opération annulée</td>
+       <td>j</td>
+       <td>joindre la ligne suivante à la ligne en cours</td>
    </tr>
    <tr>
-       <td>.</td>
-       <td>Répéter la dernière opération d'édition</td>
+       <td>cc</td>
+       <td>changer (remplacer) une ligne entière</td>
    </tr>
-  <tr>
-       <td>yy</td>
-       <td>Copier la ligne (4yy = 4 lignes)</td>
+   <tr>
+       <td>cw</td>
+       <td>changer (remplacer) jusqu'à la fin d'un mot</td>
   </tr>
   <tr>
-       <td>dd</td>
-       <td>Couper la ligne (4dd = 4 lignes)</td>
+       <td>c$</td>
+       <td>changer (remplacer) jusqu'à la fin d'une ligne</td>
   </tr>
   <tr>
-         <td>p</td>
-         <td>Coller après (P = insérer avant)</td>
+         <td>s</td>
+         <td>suppriemr un caractère et le remplacer par du texte</td>
    </tr>
    <tr>
-           <td>x</td>
-           <td>Effacer le caractère</td>
+           <td>S</td>
+           <td>supprimer une ligne et la remplacer par du texte (comme cc)</td>
    </tr>
    <tr>
-             <td>dw</td>
-             <td>Effacer le texte jusqu'à la fin du mot</td>
+             <td>xp</td>
+             <td>transposer deux lettres (supprimer et coller)</td>
     </tr>
      <tr>
-               <td>diw</td>
-               <td>Effacer le mot sous le curseur</td>
+               <td>u</td>
+               <td>annuler</td>
     </tr>
+    <tr>
+      <td>Ctrl+r</td>
+      <td>rétablir</td>
+    </tr>
+    <tr>
+      <td>.</td>
+      <td>répéter la commande précédente</td>
+    </tr>
+
+
 </table>
-<!--fin tableau 2-->
+<!--fin tableau edtion-->
+
+<!--Debut tableau copier/coller-->
+<table class="copier" border width="35%" >
+  <caption><h4>Copier/Coller</h4></caption>
+ <tr>
+      <td>yy</td>
+      <td>copier une ligne</td>
+  </tr>
+  <tr>
+      <td>2yy</td>
+      <td>copier deux lignes </td>
+  </tr>
+  <tr>
+      <td>yw</td>
+      <td>copier un mot</td>
+  </tr>
+  <tr>
+      <td>y$</td>
+      <td>copier jusqu'à la fin de la ligne
+</td>
+  </tr>
+  <tr>
+      <td>p</td>
+      <td>coller le presse-papier après le curseur</td>
+  </tr>
+  <tr>
+      <td>P</td>
+      <td>coller le presse-papier avant le curseur
+</td>
+  </tr>
+  <tr>
+      <td>dd</td>
+      <td>supprimer (couper) une ligne</td>
+  </tr>
+  <tr>
+      <td>2dd</td>
+      <td>supprimer (couper) 2 lignes</td>
+  </tr>
+  <tr>
+      <td>dw</td>
+      <td>supprimer (couper) un mot</td>
+  </tr>
+  <tr>
+      <td>D</td>
+      <td>supprimer (couper) jusqu'à la fin de la ligne</td>
+  </tr>
+  <tr>
+      <td>d$</td>
+      <td>supprimer (couper) jusqu'à la fin de la ligne</td>
+  </tr>
+  <tr>
+      <td>x</td>
+      <td>supprimer (couper) un caractère</td>
+  </tr>
 
 
+
+
+</table>
+<!--Fin de tableau copier/coller>
 <!--Debut tableau recherche-->
 <table class="recherche" border width="35%">
   <caption><h4>Recherche / remplacement:</h4></caption>
@@ -136,7 +198,7 @@
 
 <!--fin tableau 3-->
 <!--Debut tableau curseur-->
-<table class="recherche" border width="35%">
+<table class="curseur" border width="35%">
   <caption><h4>Mouvement du curseur:</h4></caption>
    <tr>
        <td>h</td>
@@ -178,44 +240,44 @@
      <tr>
              <td>B</td>
              <td>aller en arrière au début d'un mot (wles mots peuvent contenir de la ponctuation)</td>
-      </tr>
-      <tr>
+     </tr>
+     <tr>
               <td>0</td>
               <td>aller au début de la ligne</td>
-       </tr>
-       <tr>
+     </tr>
+     <tr>
                <td>^</td>
                <td>aller au premier caractère non-espace de la ligne</td>
-        </tr>
-        <tr>
+    </tr>
+    <tr>
                 <td>$</td>
                 <td>aller à la fin de la ligne</td>
-         </tr>
-         <tr>
+    </tr>
+    <tr>
                  <td>g_</td>
                  <td>jump to the last non-blank character of the line</td>
-          </tr>
-          <tr>
+    </tr>
+    <tr>
                   <td>gg</td>
                   <td>aller à la primière ligne du document</td>
-           </tr>
-           <tr>
+    </tr>
+   <tr>
                    <td>G</td>
                    <td>aller à la dernière ligne du document</td>
-          </tr>
-          <tr>
+    </tr>
+    <tr>
                     <td>5G</td>
                     <td>aller à la ligne 5</td>
-           </tr>
-          <tr>
+     </tr>
+     <tr>
                      <td>fx</td>
                      <td>saut à la prochaine occurrence du caractère x</td>
-          </tr>
-          <tr>
+    </tr>
+    <tr>
                       <td>tx</td>
                       <td>saut avant la prochaine occurrence du caractère x</td>
-          </tr>
-          <tr>
+  </tr>
+  <tr>
                     <td>}</td>
                     <td>Sauter au paragraphe suivant (ou fonction / bloc, lors de la modification du code )</td>
            </tr>
