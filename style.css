@@ -4,47 +4,61 @@ body {
   background-color: #D8D8D8;
 }
 
-
+    /*header*/
 h1 {
-text-align: center;
-font-size: 60px;
-font-weight:bold;
-margin-left:25% 0 25% 0;
-background-color: grey;
-border:2px solid;
+    text-align: center;
+    font-size: 60px;
+    font-weight:bold;
+    margin-left:25% 0 25% 0;
+    background-color: grey;
+    border:2px solid;
 }
+
+         /*sub header*/
 h4{
 
-margin-left: 25%;
-text-decoration: underline;
-font-size: 25px;
+    margin-left: 25%;
+    text-decoration: underline;
+    font-size: 25px;
+    }
+
+              /*table*/
+    table {
+      border-collapse: collapse;
+      margin-left: 25%;
+      width: 50%;
 }
 
-
-table {
-  border-collapse: collapse;
-  margin-left: 25%;
-  width: 50%;
-}
 td {
   font-size: 25px;
   border:1px solid;
 }
+
 tr {
   text-align: center;
 }
+
+
+            /*media query starts here*/
+
 @media screen and (max-width:680px) {
+
 h1 {
   font-size:30px;
 }
+
 }
 @media screen and (max-width:465px) {
+
 h1 {
   display: none;
 }
+
 h4{
   font-size: 15px;
 }
+
+
 td{
   font-size:15px;
 }
